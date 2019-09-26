@@ -9,11 +9,14 @@ https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-provi
 
 2. Create a bucket within the Cloud Object Storage instance.
 
-At the bottom of the configuration dialog, enable Activity Monitoring. If an instance of **IBM Cloud Activity Tracker with LogDNA** is provisioned in the same location, it will default to using that instance:
+At the bottom of the configuration dialog, enable Activity Monitoring. If an instance of **IBM Cloud Activity Tracker with LogDNA** is provisioned in the correlated location, it will default to using that instance:
 ![image](https://media.github.ibm.com/user/158291/files/0fc02c00-deda-11e9-8f04-f182b0ba2c72) 
 
-If not, it will prompt you to create an instance in the same location as you are creating your bucket:
+If not, it will prompt you to create an instance in the correlated location as you are creating your bucket:
 ![image](https://media.github.ibm.com/user/158291/files/5d15c980-dfbe-11e9-8979-8cff1067244b)
+
+See this page for details on which Activity Tracker service location will be tied to your Cloud Object Storage bucket:
+https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-service-availability#service-availability-geo
 
 3. Or configure an existing bucket to enable monitoring:
 https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-at
