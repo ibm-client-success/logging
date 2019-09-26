@@ -20,12 +20,16 @@ https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-at
 
 ### Step 2
 Provision an instance of **IBM Cloud Activity Tracker with LogDNA**
+
 https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_step1
+
 *NOTE:* There is 1 instance per region allowed to be provisioned.
 
 ### Step 3
 Manage access to Activity Tracker service:
+
 https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_step2
+
 *NOTE:* To grant administration permissions to manage the IBM Cloud Activity Tracker with LogDNA service, a user needs the following roles:
 
 - Platform role: Administrator
@@ -38,6 +42,7 @@ https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-
 
 ### Step 4
 Launch the web UI console for IBM Activity Tracker service
+
 https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_step4
 
 ### Step 5
