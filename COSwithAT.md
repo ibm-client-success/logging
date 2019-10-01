@@ -99,6 +99,28 @@ Queries can be combined such as
 ```
 responseData.serviceInstanceId:977ad335-788c-4287-bdcd-ae2d504bd78c AND action:cloud-object-storage.bucket-lifecycle.read
 ```
+Examples of some queries
+
+```
+# List object create actions for a particular bucket
+<name of bucket> AND action:cloud-object-storage.object.create 
+
+# List all actions by a particular user in a particular region that wasn't a failure
+initiator.name:Ann.Umberhocker@ibm.com AND responseData.bucketLocation:us-east AND -failure 
+
+# List any actions in bucket location us-east that resulted in failure
+responseData.bucketLocation:us-east AND responseData.bucketLocation:us-south AND failure 
+```
+In timeframe field, you can specify a period of time using several formats
+
+Absolute time: 
+- 3 days ago
+- yesterday 10 am to yesterday 11 am
+- Sept 28 at 12 pm
+
+Time frame:
+- 9/28 12 pm - 10/1 12 pm
+
 #### Analyzing events
 To expand an event, click on the arrow that appears when hovering over the far left margin of the event.  See https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-at-events#at-events-analyze for more details on how to interpret this information. 
 
