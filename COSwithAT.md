@@ -99,16 +99,19 @@ Queries can be combined such as
 ```
 responseData.serviceInstanceId:977ad335-788c-4287-bdcd-ae2d504bd78c AND action:cloud-object-storage.bucket-lifecycle.read
 ```
-Examples of some queries
+##### Examples of some queries
 
+List object create actions for a particular bucket
 ```
-# List object create actions for a particular bucket
 <name of bucket> AND action:cloud-object-storage.object.create 
+```
 
-# List all actions by a particular user in a particular region that wasn't a failure
-initiator.name:Ann.Umberhocker@ibm.com AND responseData.bucketLocation:us-east AND -failure 
-
-# List any actions in bucket location us-east that resulted in failure
+List all actions by a couple of users in a particular region that wasn't a failure
+```
+(initiator.name:Ann.Umberhocker@ibm.com OR initiator.name:Sowmya@ibm.com) AND responseData.bucketLocation:us-east AND -failure 
+```
+List any actions in bucket location us-east that resulted in failure
+```
 responseData.bucketLocation:us-east AND responseData.bucketLocation:us-south AND failure 
 ```
 In timeframe field, you can specify a period of time using several formats
