@@ -24,7 +24,8 @@ https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-provi
 If an instance of **IBM Cloud Activity Tracker with LogDNA** is provisioned in the correlated location, it will default to using that instance:
 ![image](https://media.github.ibm.com/user/158291/files/0fc02c00-deda-11e9-8f04-f182b0ba2c72) 
 
-If **IBM Cloud Activity Tracker with LogDNA** is not yet provisioned, it will prompt you to create an instance in the correlated location as you are creating your bucket:
+If **IBM Cloud Activity Tracker with LogDNA** is not yet provisioned, it will prompt you to create an instance in the  location that is correlated to the location you are creating your bucket (see https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-service-availability#service-availability-geo
+ for the tables of location correlations):
 ![image](https://media.github.ibm.com/user/158291/files/5d15c980-dfbe-11e9-8979-8cff1067244b)
 
 Or configure an existing bucket to enable monitoring:
