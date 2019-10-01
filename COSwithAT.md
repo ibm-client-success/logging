@@ -4,6 +4,16 @@ See https://www.ibm.com/cloud/blog/announcements/ibm-cloud-activity-tracker-with
 To enable logging for an IBM Cloud Object Storage service:
 
 ### Step 1
+Provision an instance of **IBM Cloud Activity Tracker with LogDNA**
+
+https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_step1
+
+**NOTE:** There is 1 instance per region allowed to be provisioned.
+
+**NOTE:** See this page for details on which Activity Tracker service location that will be correlated to your Cloud Object Storage bucket:
+https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-service-availability#service-availability-geo
+
+### Step 2
 (1) Create a Cloud Object Storage instance: 
 https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-provision#provision-instance.
 
@@ -19,16 +29,6 @@ If **IBM Cloud Activity Tracker with LogDNA** is not yet provisioned, it will pr
 
 Or configure an existing bucket to enable monitoring:
 https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-at
-
-**NOTE:** See this page for details on which Activity Tracker service location that will be correlated to your Cloud Object Storage bucket:
-https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-service-availability#service-availability-geo
-
-### Step 2
-Provision an instance of **IBM Cloud Activity Tracker with LogDNA**
-
-https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_step1
-
-*NOTE:* There is 1 instance per region allowed to be provisioned.
 
 ### Step 3
 Manage access to Activity Tracker service:
