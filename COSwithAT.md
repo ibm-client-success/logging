@@ -4,12 +4,12 @@ See https://www.ibm.com/cloud/blog/announcements/ibm-cloud-activity-tracker-with
 To enable logging for an IBM Cloud Object Storage service:
 
 ### Step 1
-1. Create a Cloud Object Storage instance: 
+(1) Create a Cloud Object Storage instance: 
 https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-provision#provision-instance.
 
-2. Create a bucket within the Cloud Object Storage instance.
+(2) Create a bucket within the Cloud Object Storage instance.
 
-3. Enable Activity Monitoring at the bottom of the configuration dialog:
+(3) Enable Activity Monitoring at the bottom of the configuration dialog:
 
 If an instance of **IBM Cloud Activity Tracker with LogDNA** is provisioned in the correlated location, it will default to using that instance:
 ![image](https://media.github.ibm.com/user/158291/files/0fc02c00-deda-11e9-8f04-f182b0ba2c72) 
