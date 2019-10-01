@@ -110,9 +110,9 @@ List all actions by a couple of users in a particular region that wasn't a failu
 ```
 (initiator.name:Ann.Umberhocker@ibm.com OR initiator.name:Sowmya@ibm.com) AND responseData.bucketLocation:us-east AND -failure 
 ```
-List any actions in bucket location us-east that resulted in failure
+List any actions in buckets located in us-east, us-south that resulted in failure
 ```
-responseData.bucketLocation:us-east AND responseData.bucketLocation:us-south AND failure 
+responseData.bucketLocation:us-east OR responseData.bucketLocation:us-south AND failure 
 ```
 In timeframe field, you can specify a period of time using several formats
 
