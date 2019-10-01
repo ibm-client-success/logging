@@ -85,7 +85,7 @@ Object Storage [data events](https://cloud.ibm.com/docs/services/cloud-object-st
 - [Multipart events](https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-at-events#at-actions-data-3)
 
 #### Querying events
-To query on different event types, issue the query in the search field at the bottom of the UI. See https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-views#views_step2 for more details.
+To query on different event types, issue the query in the *search field* at the bottom of the UI. See https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-views#views_step2 for more details.
 
 To see a specific type of action, enter the format like:
 ```
@@ -114,7 +114,7 @@ List any actions in buckets located in us-east, us-south that resulted in failur
 ```
 responseData.bucketLocation:us-east OR responseData.bucketLocation:us-south AND failure 
 ```
-In timeframe field, you can specify a period of time using several formats
+In *timeframe field* (next to the *search field*), you can specify a period of time using several formats
 
 Absolute time: 
 - 3 days ago
