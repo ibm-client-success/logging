@@ -124,7 +124,7 @@ Absolute time:
 - Sept 28 at 12 pm
 
 Time frame:
-- 9/28 12 pm - 10/1 12 pm
+- 9/28 12 pm to 10/1 12 pm
 
 #### Analyzing events
 To expand an event, click on the arrow that appears when hovering over the far left margin of the event.  See https://cloud.ibm.com/docs/services/cloud-object-storage/basics?topic=cloud-object-storage-at-events#at-events-analyze for more details on how to interpret this information. 
