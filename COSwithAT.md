@@ -4,12 +4,11 @@ See https://www.ibm.com/cloud/blog/announcements/ibm-cloud-activity-tracker-with
 To enable logging for an IBM Cloud Object Storage service:
 
 ### Step 1
-Provision an instance of **IBM Cloud Activity Tracker with LogDNA**
+If one doesn't exist, provision an instance of **IBM Cloud Activity Tracker with LogDNA** closest to the region you are using. You will also need an instance provisioned in Frankfurt to see all global events.
 
 https://cloud.ibm.com/docs/services/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_step1
 
 **NOTE:** There is 1 instance per region allowed to be provisioned.
-
 
 ### Step 2
 (1) Create a Cloud Object Storage instance: 
